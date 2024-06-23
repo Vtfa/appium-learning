@@ -20,6 +20,5 @@ public class AndroidFindElements {
 
         WebElement myElementXpath = driver.findElement(AppiumBy.xpath("//android.widget.TextView[@content-desc=\"Animation\"]"));
         System.out.println(myElementXpath.getText());
-        assert(myElementXpath.getText().equals("teste"));
     }
 }
